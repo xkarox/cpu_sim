@@ -1,12 +1,5 @@
-Absolut. Du hast recht, wenn das Ziel ist, die Klausur zu bestehen und die Konzepte *tief* zu verstehen, können wir die Roadmap noch schärfer auf die typischen "Hürden" im Fach Rechnerstrukturen zuschneiden.
 
-Die erste Roadmap war gut, um ein *Software-Projekt* zu bauen. Diese neue Roadmap ist besser, um *Rechnerstrukturen zu lernen*.
-
-Der größte Unterschied: Wir ziehen das **Gate-Level** (Gatter) vor und trennen viel schärfer zwischen **kombinatorischer** und **sequentieller** Logik. Das sind die beiden wichtigsten Konzepte des Fachs.
-
----
-
-## Verbesserte Roadmap: Vom Gatter zur CPU
+## Roadmap: Vom Gatter zur CPU
 
 ### Meilenstein 1: Die "Atome" der Logik (Boolesche Algebra) 💡
 
@@ -115,5 +108,3 @@ Der größte Unterschied: Wir ziehen das **Gate-Level** (Gatter) vor und trennen
             * Schreibe das Ergebnis zurück: `R0.write(alu_result, load_enable=Bit(True), ...)`
             * *Beispiel `LOAD`*: Lade die Adresse (Folge-Byte) aus dem RAM, lies *von dort* die Daten und schreibe sie in `R0`.
             * *Beispiel `HALT`*: `break` aus der Schleife.
-
-Mit diesem Aufbau programmierst du *direkt* die Konzepte aus der Vorlesung. Wenn du bei Meilenstein 3 ankommst und den Unterschied zwischen `full_adder` (kombinatorisch) und `D_Flip_Flop` (sequentiell) verstanden hast, hast du 50% der Rechnerstrukturen-Klausur bestanden. Viel Erfolg! 🚀
